@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fe9746f-18e4-48af-89e5-20388b520c1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/audit/AuditAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/constants/AccountsConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/dto/AccountsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/dto/CustomerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/dto/ResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/exception/CustomerAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/mapper/AccountsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/entity/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
