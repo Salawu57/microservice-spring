@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fe9746f-18e4-48af-89e5-20388b520c1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/mapper/AccountsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/mapper/CustomerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/service/impl/AccountServiceImpl.java" afterDir="false" />
+    <list default="true" id="da98f1c0-50b0-433a-8200-05b87eb5bf58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/controller/AccountController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/AccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/AccountApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/com/salawuBabatunde/account/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +21,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,11 +28,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
-  <component name="ProjectId" id="2lNpNK5qUbHwbo4yHnTMZwihhuh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2lOSUbd0cECwCzHGU8WgY8SecZX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
@@ -42,38 +40,43 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Salawu/Documents/projects/java/spring/microservice"
+    "last_opened_file_path": "C:/Users/Salawu/Documents/projects/java/spring/microservice/loans/pom.xml"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="AccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.salawuBabatunde.account.AccountApplication" />
+      <module name="account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.salawuBabatunde.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AccountApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4fe9746f-18e4-48af-89e5-20388b520c1b" name="Changes" comment="" />
-      <created>1725030346678</created>
+      <changelist id="da98f1c0-50b0-433a-8200-05b87eb5bf58" name="Changes" comment="" />
+      <created>1725049650684</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725030346678</updated>
+      <updated>1725049650684</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
